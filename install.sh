@@ -26,7 +26,7 @@ sudo mkdir -p /srv/www
 sudo chown www-data: /srv/www
 curl https://wordpress.org/latest.tar.gz | sudo -u www-data tar zx -C /srv/www
 cd /etc/apache2/sites-available/
-wget https://salty.cool/wordpress.conf
+wget https://salty.cool/ect/wordpress.conf
 sudo a2ensite wordpress
 sudo a2enmod rewrite
 sudo a2dissite 000-default
