@@ -1,4 +1,4 @@
-#WORDPRESS INSTALLER     
+WORDPRESS INSTALLER     
 Copy this
 ```
 sudo apt install git
